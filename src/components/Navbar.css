@@ -56,6 +56,8 @@
     position: absolute;
     top: 100%;
     left: 0;
+    padding-top: 30px;
+    min-width: 200px;
     background-color: #182848;
     list-style: none;
     padding: 0;
@@ -110,6 +112,9 @@
   }
   
   @media (max-width: 768px) {
+
+    
+
     .navbar-links {
       flex-direction: column;
       position: absolute;

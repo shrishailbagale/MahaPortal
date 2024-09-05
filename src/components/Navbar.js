@@ -22,12 +22,21 @@ const Navbar = () => {
       <ul className={`navbar-links ${isMenuOpen ? 'show' : ''}`}>
         <li><Link to="/MahaPortal">Home</Link></li>
         <li><Link to="/services" className="dropdown-toggle">Services</Link></li>
+        <li>
+          <Link to="#" className="dropdown-toggle">Login</Link>
+          <ul className="dropdown-menu">
+            <li><Link to="/admin-login">Admin Login</Link></li>
+            <li><Link to="/public-login">Public Login</Link></li>
+          </ul>
+        </li>
         <li><Link to="/documents">Documents</Link></li>
         <li><Link to="/about">About</Link></li>
         <li><Link to="/news">News & Updates</Link></li>
         <li><Link to="/faq">FAQ</Link></li>
         <li><Link to="/contact">Contact</Link></li>
-        <li><Link to="/login"><button className='login-button'>Login</button></Link></li>
+       
+
+        {/* <li><Link to="/login"><button className='login-button'>Login</button></Link></li> */}
       </ul>
     </nav>
   );

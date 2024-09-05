@@ -7,7 +7,7 @@
   
   h1 {
     color: #ff5722; /* Revenue Department color */
-    border-bottom: 2px solid #ff5722;
+    border-bottom: 2px solid #9d9d9d;
     display: inline-block;
     margin-bottom: 20px;
   }
@@ -75,6 +75,13 @@
   }
   
   @media (max-width: 768px) {
+    h1{
+      font-size: 26px;
+    }
+    .search-bar{
+      width: 100%;
+    }
+
     .document-card {
       flex: 0 1 calc(100% - 20px);
     }
