@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MahaPortal/static/css/main.1e65b610.css",
-    "main.js": "/MahaPortal/static/js/main.6a2bb550.js",
+    "main.js": "/MahaPortal/static/js/main.e32fcded.js",
     "static/js/453.54f10f04.chunk.js": "/MahaPortal/static/js/453.54f10f04.chunk.js",
     "static/media/image3.png": "/MahaPortal/static/media/image3.0beaf3530c892685b354.png",
     "static/media/image2.png": "/MahaPortal/static/media/image2.a5e7237b265deb65115c.png",
@@ -10,11 +10,11 @@
     "index.html": "/MahaPortal/index.html",
     "static/media/document.svg": "/MahaPortal/static/media/document.af54050134bf153db54f68a279463b6d.svg",
     "main.1e65b610.css.map": "/MahaPortal/static/css/main.1e65b610.css.map",
-    "main.6a2bb550.js.map": "/MahaPortal/static/js/main.6a2bb550.js.map",
+    "main.e32fcded.js.map": "/MahaPortal/static/js/main.e32fcded.js.map",
     "453.54f10f04.chunk.js.map": "/MahaPortal/static/js/453.54f10f04.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1e65b610.css",
-    "static/js/main.6a2bb550.js"
+    "static/js/main.e32fcded.js"
   ]
 }
