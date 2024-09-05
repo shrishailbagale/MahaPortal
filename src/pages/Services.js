@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Sidebar from '../components/Sidebar';
 import ServiceList from '../components/ServiceList';
-import SidebarToggle from '../components/SidebarToggle';
+//import SidebarToggle from '../components/SidebarToggle';
 import './Services.css';
 
 const Services = () => {
@@ -14,7 +14,7 @@ const Services = () => {
 
   return (
     <div className="services-page">
-      <SidebarToggle toggleSidebar={toggleSidebar} />
+     {/* // <SidebarToggle toggleSidebar={toggleSidebar} /> */}
       <Sidebar setSelectedCategory={setSelectedCategory} className={sidebarVisible ? 'show' : ''} />
       <div className="service-content">
         <h1>{selectedCategory}</h1>
