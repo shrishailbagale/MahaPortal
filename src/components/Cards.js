@@ -4,19 +4,19 @@ import './Cards.css';
 const Cards = () => {
   const cardData = [
     {
-      title: 'Service 1',
+      title: 'Aaple Sarkar Seva',
       description: 'Description of Service 1',
-      image: 'https://via.placeholder.com/150',
+      image: '/img/Mahadbt.png',
     },
     {
-      title: 'Service 2',
+      title: 'Digital Seva/ CSC Login',
       description: 'Description of Service 2',
-      image: 'https://via.placeholder.com/150',
+      image: '/img/digital_seva.png',
     },
     {
-      title: 'Service 3',
+      title: 'Aadhar Seva',
       description: 'Description of Service 3',
-      image: 'https://via.placeholder.com/150',
+      image: '/img/aadhar.png',
     },
     // Add more cards as needed
   ];
