@@ -88,6 +88,9 @@
   }
   
   @media (max-width: 480px) {
+    .search-bar{
+      width: 100%;
+    }
     .document-card {
       flex: 0 1 calc(100% - 20px);
     }
