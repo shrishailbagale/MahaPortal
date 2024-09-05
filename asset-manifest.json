@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MahaPortal/static/css/main.99ae0f6a.css",
-    "main.js": "/MahaPortal/static/js/main.cf69eabd.js",
+    "main.css": "/MahaPortal/static/css/main.a2ca0fdb.css",
+    "main.js": "/MahaPortal/static/js/main.ba795f75.js",
     "static/js/453.54f10f04.chunk.js": "/MahaPortal/static/js/453.54f10f04.chunk.js",
     "static/media/image3.png": "/MahaPortal/static/media/image3.0beaf3530c892685b354.png",
     "static/media/image2.png": "/MahaPortal/static/media/image2.a5e7237b265deb65115c.png",
@@ -9,12 +9,12 @@
     "static/media/image1.jpg": "/MahaPortal/static/media/image1.a0e74836ab329d1c3f3e.jpg",
     "index.html": "/MahaPortal/index.html",
     "static/media/document.svg": "/MahaPortal/static/media/document.af54050134bf153db54f68a279463b6d.svg",
-    "main.99ae0f6a.css.map": "/MahaPortal/static/css/main.99ae0f6a.css.map",
-    "main.cf69eabd.js.map": "/MahaPortal/static/js/main.cf69eabd.js.map",
+    "main.a2ca0fdb.css.map": "/MahaPortal/static/css/main.a2ca0fdb.css.map",
+    "main.ba795f75.js.map": "/MahaPortal/static/js/main.ba795f75.js.map",
     "453.54f10f04.chunk.js.map": "/MahaPortal/static/js/453.54f10f04.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.99ae0f6a.css",
-    "static/js/main.cf69eabd.js"
+    "static/css/main.a2ca0fdb.css",
+    "static/js/main.ba795f75.js"
   ]
 }
