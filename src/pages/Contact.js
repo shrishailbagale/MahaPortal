@@ -9,13 +9,13 @@ const Contact = () => {
         <div className="contact-details">
           <h3>Get in Touch</h3>
           <p>
-            <strong>Email:</strong> support@mahaportal.com
+            <strong>Email:</strong> shrishailbagale3@gmail.com
           </p>
           <p>
-            <strong>Phone:</strong> +91 123 456 7890
+            <strong>WhatsApp:</strong> +91 9421238708
           </p>
           <p>
-            <strong>Address:</strong> 123 Maha Street, Mumbai, Maharashtra, India
+            <strong>Address:</strong> Solapur, Maharashtra, India
           </p>
         </div>
         <div className="contact-form">

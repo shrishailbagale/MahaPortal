@@ -20,7 +20,7 @@ const Navbar = () => {
         <span className="navbar-toggle-icon"></span>
       </div>
       <ul className={`navbar-links ${isMenuOpen ? 'show' : ''}`}>
-        <li><Link to="/">Home</Link></li>
+        <li><Link to="/MahaPortal">Home</Link></li>
         <li><Link to="/services" className="dropdown-toggle">Services</Link></li>
         <li><Link to="/documents">Documents</Link></li>
         <li><Link to="/about">About</Link></li>

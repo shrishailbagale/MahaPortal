@@ -6,8 +6,7 @@ const Notice = () => {
     <div className="notice-container">
       <h2>Important Notice</h2>
       <p>
-        Please be aware of the following changes and updates. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada.
+        Please be aware of the following changes and updates.
       </p>
     </div>
   );
