@@ -1,0 +1,39 @@
+.news {
+    padding: 2rem;
+    background-color: #e8e8e8;
+    border-radius: 8px;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  .news h1 {
+    margin-bottom: 1rem;
+    color: #4b6cb7;
+    text-align: center;
+  }
+  
+  .news-item {
+    margin-bottom: 1.5rem;
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .news-item h2 {
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  .news-item p {
+    color: #555;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  

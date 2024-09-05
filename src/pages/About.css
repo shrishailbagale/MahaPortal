@@ -1,0 +1,238 @@
+.about-page {
+    margin: 0 auto;
+    color: #333;
+    line-height: 1.6;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .hero-section {
+    text-align: center;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    padding: 40px 20px;
+    color: white;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  .hero-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero-section p {
+    font-size: 1.2rem;
+  }
+  
+  .mission-section {
+    margin: 40px 20px;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    padding: 30px;
+    border-radius: 8px;
+    color: white;
+    animation: slideInRight 1s ease-in-out;
+  }
+  
+  .mission-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+  
+  .values-section {
+    margin: 40px 20px;
+    background: linear-gradient(to right, #b3ffab, #12fff7);
+    padding: 30px;
+    border-radius: 8px;
+    color: white;
+    animation: fadeInUp 1.5s ease-in-out;
+  }
+  
+  .values-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+  
+  .values-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .value-card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 300px;
+    animation: flipInX 1s ease-in-out;
+  }
+  
+  .value-card h3 {
+    color: #333;
+    font-size: 1.5rem;
+  }
+  
+  .value-card p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .team-section {
+    margin: 40px 20px;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    padding: 30px;
+    border-radius: 8px;
+    color: white;
+    animation: slideInLeft 1.5s ease-in-out;
+  }
+  
+  .team-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+  
+  .team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .team-member {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 300px;
+    animation: zoomIn 1.5s ease-in-out;
+  }
+  
+  .team-member h3 {
+    color: #333;
+    font-size: 1.5rem;
+  }
+  
+  .team-member p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .more-content-section {
+    margin: 40px 20px;
+    background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+    padding: 30px;
+    border-radius: 8px;
+    color: #333;
+    animation: bounceIn 1.5s ease-in-out;
+  }
+  
+  .more-content-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+  
+  .more-content-section p {
+    text-align: justify;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideInRight {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      transform: translateY(20%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes flipInX {
+    from {
+      transform: perspective(400px) rotateX(90deg);
+      opacity: 0;
+    }
+    to {
+      transform: perspective(400px) rotateX(0deg);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideInLeft {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes zoomIn {
+    from {
+      transform: scale(0.5);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes bounceIn {
+    from {
+      transform: scale(0.5);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .values-container,
+    .team-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .value-card,
+    .team-member {
+      max-width: none;
+      width: 100%;
+    }
+  }
+  

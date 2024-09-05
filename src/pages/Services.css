@@ -1,0 +1,45 @@
+.services-page {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .service-content {
+    flex: 1;
+    padding: 2rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  .service-content h1 {
+    color: #f04f04;
+    margin-bottom: 1.5rem;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Media Queries for Responsive Design */
+  @media (max-width: 768px) {
+    .service-content {
+      margin-left: 210px;
+      padding: 1rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .services-page {
+      flex-direction: column;
+    }
+  
+    .service-content {
+      margin-left: 0;
+    }
+  }
+  

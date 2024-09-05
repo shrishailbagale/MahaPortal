@@ -1,0 +1,26 @@
+.sidebar-toggle {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20px;
+    width: 30px;
+    display: none;
+  }
+  
+  .sidebar-toggle .bar {
+    height: 3px;
+    width: 100%;
+    background-color: #343a40;
+    transition: 0.3s;
+  }
+  
+  @media (max-width: 576px) {
+    .sidebar-toggle {
+      display: block;
+    }
+  }
+  
