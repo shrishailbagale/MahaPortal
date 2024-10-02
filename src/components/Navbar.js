@@ -1,44 +1,45 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import './Navbar.css';
+import './Navbar.css'; // Include CSS for styling
 
 const Navbar = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
-  const handleMenuToggle = () => {
-    setIsMenuOpen(!isMenuOpen);
+  // Toggle function for opening and closing the mobile menu
+  const handleToggle = () => {
+    setIsOpen(!isOpen);
   };
 
   return (
-    <nav className="navbar">
-      <div className="navbar-logo">
-        <Link to="/"><span className='orange'>Maha</span><span className='green'>Portal</span></Link>
-      </div>
-      <div className="navbar-toggle" onClick={handleMenuToggle}>
-        <span className="navbar-toggle-icon"></span>
-        <span className="navbar-toggle-icon"></span>
-        <span className="navbar-toggle-icon"></span>
-      </div>
-      <ul className={`navbar-links ${isMenuOpen ? 'show' : ''}`}>
-        <li><Link to="/MahaPortal">Home</Link></li>
-        <li><Link to="/services" className="dropdown-toggle">Services</Link></li>
-        <li>
-          <Link to="#" className="dropdown-toggle">Login</Link>
-          <ul className="dropdown-menu">
-            <li><Link to="/admin-login">Admin Login</Link></li>
-            <li><Link to="/public-login">Public Login</Link></li>
-          </ul>
-        </li>
-        <li><Link to="/documents">Documents</Link></li>
-        <li><Link to="/about">About</Link></li>
-        <li><Link to="/news">News & Updates</Link></li>
-        <li><Link to="/faq">FAQ</Link></li>
-        <li><Link to="/contact">Contact</Link></li>
-       
+    <header className="navbar">
+      <div className="container">
+        <div className="brand">
+          {/* <img src="/path-to-logo.png" alt="Logo" className="logo" /> */}
+          <h1>MahaPortal</h1>
+        </div>
+        
+        {/* Toggle Button for mobile view */}
+        <button className="toggle-btn" onClick={handleToggle}>
+          <span className="bar"></span>
+          <span className="bar"></span>
+          <span className="bar"></span>
+        </button>
 
-        {/* <li><Link to="/login"><button className='login-button'>Login</button></Link></li> */}
-      </ul>
-    </nav>
+        {/* Navbar Links, which collapse on mobile view */}
+        <nav className={`nav-links ${isOpen ? 'open' : ''}`}>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/services">Services</a></li>
+            <li><a href="/investors">Investors</a></li>
+            <li><a href="/gov-decisions">Government Decisions</a></li>
+            <li><a href="/quick-links">Quick Links</a></li>
+            <li><a href="/faq">FAQ</a></li>
+            <li><a href="/news">News</a></li>
+            <li><a href="/contact">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
   );
 };
 

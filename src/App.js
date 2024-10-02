@@ -10,6 +10,8 @@ import Services from './pages/Services';
 import News from './pages/News';
 import FAQ from './pages/FAQ';
 import './App.css';
+import QuickLinks from './pages/QuickLinks';
+import Cards from './components/Cards';
 
 const App = () => {
   return (
@@ -24,7 +26,9 @@ const App = () => {
             <Route path="/contact" element={<Contacts />} />
             <Route path="/services" element={<Services />} />
             <Route path="/news" element={<News />} />
+            <Route path="/quick-links" element={<QuickLinks />} />
             <Route path="/faq" element={<FAQ />} />
+            <Route path="/cards" element={<Cards />} />
           </Routes>
         </div>
         <Footer />
