@@ -1,20 +1,24 @@
 {
   "files": {
-    "main.css": "/MahaPortal/static/css/main.ee35f777.css",
-    "main.js": "/MahaPortal/static/js/main.e32fcded.js",
+    "main.css": "/MahaPortal/static/css/main.dc013b8d.css",
+    "main.js": "/MahaPortal/static/js/main.a639e2a8.js",
     "static/js/453.54f10f04.chunk.js": "/MahaPortal/static/js/453.54f10f04.chunk.js",
     "static/media/image3.png": "/MahaPortal/static/media/image3.0beaf3530c892685b354.png",
     "static/media/image2.png": "/MahaPortal/static/media/image2.a5e7237b265deb65115c.png",
     "static/media/slide1.gif": "/MahaPortal/static/media/slide1.048b55b7ecfd4fe140c7.gif",
+    "static/media/digital_seva.png": "/MahaPortal/static/media/digital_seva.a18971beed803401508d.png",
     "static/media/image1.jpg": "/MahaPortal/static/media/image1.a0e74836ab329d1c3f3e.jpg",
+    "static/media/mahaesevakendra.jpg": "/MahaPortal/static/media/mahaesevakendra.b858290e3b0b8ce3e24f.jpg",
+    "static/media/aadharlogo.png": "/MahaPortal/static/media/aadharlogo.0248d00d766a1e151110.png",
+    "static/media/Mahadbt.png": "/MahaPortal/static/media/Mahadbt.f6aa36d7e418e9acc7f3.png",
     "index.html": "/MahaPortal/index.html",
     "static/media/document.svg": "/MahaPortal/static/media/document.af54050134bf153db54f68a279463b6d.svg",
-    "main.ee35f777.css.map": "/MahaPortal/static/css/main.ee35f777.css.map",
-    "main.e32fcded.js.map": "/MahaPortal/static/js/main.e32fcded.js.map",
+    "main.dc013b8d.css.map": "/MahaPortal/static/css/main.dc013b8d.css.map",
+    "main.a639e2a8.js.map": "/MahaPortal/static/js/main.a639e2a8.js.map",
     "453.54f10f04.chunk.js.map": "/MahaPortal/static/js/453.54f10f04.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ee35f777.css",
-    "static/js/main.e32fcded.js"
+    "static/css/main.dc013b8d.css",
+    "static/js/main.a639e2a8.js"
   ]
 }
